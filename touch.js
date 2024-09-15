@@ -41,7 +41,7 @@ function startCountdown() {
 
     if (totalSeconds == 0) {
       clearInterval(countdownInterval);
-      timerElement.innerHTML = "Time!";
+      timerElement.innerHTML = "Time Out ! ";
       //   alert("Time out");
       const audio = new Audio("homecoming_samsung.mp3"); // Ensure this path is correct
       audio.play();

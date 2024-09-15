@@ -8,6 +8,13 @@ body {
   height: 100vh;
   margin: 0;
 }
+.cont
+{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+
+}
 
 .countdown-container {
   text-align: center;
