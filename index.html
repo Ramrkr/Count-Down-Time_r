@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Countdown Timer</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div class="countdown-container">
+		<div style="font-size: xx-large;">Countdown Companion</div>
+
+		<div class="cont">
+		
+		<label for="hours">Hours:</label>
+		<input style="margin-inline-start: 10px;margin-right: 10px;" type="number" id="hours" min="0" placeholder="0">
+
+		<label for="minutes">Minutes:</label>
+		<input style="margin-inline-start: 10px;margin-right: 10px;" type="number" id="minutes" min="0" placeholder="0">
+
+		<label for="seconds">Seconds:</label>
+		<input  style="margin-inline-start: 10px;margin-right: 10px;"type="number" id="seconds" min="0" placeholder="0">
+		<br></br>
+
+		</div>
+		
+
+		<button onclick="startCountdown()">GO</button>
+
+		<div id="timer" class="countdown-timer">
+			<span id="days">00</span>
+			<span id="hours">00</span>
+			<span id="minutes">00</span>
+			<span id="seconds">00</span>
+		</div>
+	</div>
+
+	<script src="touch.js"></script>
+</body>
+</html>
